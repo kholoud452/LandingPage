@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Birthstone&family=Charm:wght@400;700&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playwrite+NO+Guides&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior:smooth;
+}
+
+header{
+    width: 100%;
+    height: 50px;
+    z-index: 999;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    padding: 10px 200px;
+    background-color: black;
+    display: flex;
+    position: fixed;
+}
+header p{
+    align-items: center;
+}
+header p span{
+    display: inline-block;
+    font-size: 26px;
+    color: rgb(255, 255, 255);
+    font-family: "Montserrat Alternates", serif;
+    font-weight: 300;
+    font-style: normal;
+    cursor: pointer;
+    padding-bottom: 3px;
+}
+header p img{
+    width: 40px;
+    border-radius: 10px;
+    margin-top: 3px;
+}
+header ul{
+    float: right;
+    justify-content: space-evenly;
+    display: flex;
+}
+header ul li{
+    list-style: none;
+    margin: 0 20px;
+}
+header ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: 0.3s ease;
+}
+header ul li a:hover{
+    background-color: white;
+    border-radius: 4px;
+    padding: 3px;
+    transform: scale(1.1);
+    color: rgb(203, 5, 22);
+}
+.main{
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right, #00000088 30%, #00000088),
+    url('./Images/pngtree-coffee-cup-on-a-bed-of-beans-image_16507920.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.main h2{
+    color:white;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 600;
+}
+.main div{
+    padding-top: 200px;
+}
+.main .h2P{
+    color:white;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 70px;
+}
+.main h4{
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+.main .btn{
+    background-color: rgb(249, 90, 4);
+    color: white;
+    padding: 10px 5px;
+    border: 0;
+    border-radius: 4px;
+    text-align: center;
+    width: 200px;
+    margin-top: 50px;
+    margin-left: 675px;
+    transition: 0.4s ease;
+}
+.main .btn:hover{
+    background-color: rgb(239, 225, 225);
+    color: rgb(213, 39, 39);
+    transform: scale(1.1);
+}
+.title{
+    color: rgb(143, 5, 5);
+    font-size: 35px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.changeColor{
+    
+    color: rgb(255, 255, 255);
+}
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card{
+    background-color: white;
+    width: 19.25em;
+    box-shadow: 0 5px 25px rgba(1 1 1 /15%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.7s ease;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.espImg{
+    width: 200px;
+    margin-left: 25px;
+    margin-top: 60px;
+}
+.latte{
+    width: 200px;
+    height: 100;
+    margin-left: 25px;
+}
+.edit{
+    padding-top: 20px;
+}
+.info{
+    text-align: center;
+}
+.info h3{
+    color: rgb(0, 0, 0);
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+}
+.offer{
+    background-color: rgb(3, 3, 3);
+    opacity: 95%;
+    padding: 20px;
+}
+.editImg{
+    padding-bottom: 40px;
+}
+form{
+    display: block;
+    width: 600px;
+    height: 450px;
+    background-color: rgb(255, 249, 241);
+    border-radius: 10px;
+    margin-left: 450px;
+    padding: 10px;
+    padding-top: 30px;
+    justify-content: center;
+}
+form input{
+    width: 90%;
+    height: 40px;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 15px;
+}
+textarea{
+    width: 90%;
+    height: 100px;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 15px;
+}
+form button{
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(125, 8, 8);
+    color: white;
+    margin-left: 250px;
+    margin-top: 10px;
+    transition: 0.5s ease;
+}
+form button:hover{
+    transform: scale(1.1);
+    background-color: black;
+
+}
+.footer{
+    background-color: rgb(86, 14, 14);
+    color: rgb(0, 0, 0);
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+    transition: 0.5s ease;
+}
+.footer-title{
+    font-size: 1.3em;
+    font-weight: 600;
+}
+.footer-title span{
+    color: rgb(255, 255, 255);
+}
+.footer .social-icons a{
+    font-size: 1.3em;
+    padding: 0 12px 0 0;
+    color: rgb(255, 255, 255);
+}
+.footer .social-icons a:hover{
+    transform: scale(1.1);
+    color:rgb(203, 5, 22) ;
+}
